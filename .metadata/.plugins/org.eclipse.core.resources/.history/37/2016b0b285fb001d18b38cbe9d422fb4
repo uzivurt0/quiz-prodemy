@@ -1,0 +1,38 @@
+package soal1;
+
+import java.util.Scanner;
+
+public class Soal1D {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please input number : ");
+		int input = scan.nextInt();
+		
+		System.out.println(input);
+//		for(int i = 1; i < number + 1; i++) {
+//			int k = 1;
+//			for(int j = 1; j < number + 1;j++) {
+//				
+//				if(i == j || i + j == number + 1) {
+//					if(k % 2 != 0) {
+//						System.out.print(k + " ");
+//					}
+//					k++;
+//				} else {
+//					System.out.print(" ");
+//					k++;
+//				}
+//				
+//			}
+//			System.out.println();
+//		}
+		for(int i = 0; i < input; i++) {
+			for(int j = 0; j < input;j++) {
+				for(int k = 1;k % 2 != 0;k++) {
+					System.out.print(k);
+				}
+			}
+			System.out.println();
+		}
+	}
+}

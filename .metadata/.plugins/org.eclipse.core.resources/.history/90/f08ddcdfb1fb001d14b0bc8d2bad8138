@@ -1,0 +1,14 @@
+package soal3;
+
+import java.util.Scanner;
+
+public class Soal3 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Please input number : ");
+		int n = scanner.nextInt();
+		int a = 1, b = 1, c = 1;
+		
+		
+	}
+}

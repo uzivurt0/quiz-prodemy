@@ -1,0 +1,19 @@
+package soal1;
+
+import java.util.Scanner;
+
+public class Soal1C {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please input number : ");
+		int number = scan.nextInt();
+		
+		System.out.println(number);
+		for(int i = 0; i < number; i++) {
+			for(int j = 0; j < number;j++) {
+			System.out.print(j + " ");
+			}
+			System.out.println();
+		}
+	}
+}

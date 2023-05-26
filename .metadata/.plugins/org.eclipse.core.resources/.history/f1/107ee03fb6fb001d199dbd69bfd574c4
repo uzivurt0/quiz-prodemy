@@ -1,0 +1,14 @@
+package soal2;
+
+import java.util.Scanner;
+
+public class Soal2_2B {
+	public static void main (String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please input number");
+		int n = scanner.nextInt();
+		
+		int k = n / 2;
+		System.out.print(k);
+	}
+}
